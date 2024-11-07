@@ -1,42 +1,43 @@
-h1{
-  color: white;
+h1 {
   background-color: red;
-  text-align: center;
-  width: fit-content;
-  margin: 0 auto;
+  color: white;
   padding: 8px;
   margin-bottom: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.burger-upper-bun {
+.bulka-gorna {
   width: 24rem;
   height: 6rem;
   background-color: #deb787;
   border-radius: 4rem 4rem 1rem 1rem;
-  border-bottom: 1rem solid #d1a15f
-}
-.cheese{
-  width: 25rem;
-  height: 1rem;
-  background-color: #ffd700;
-  border-bottom: 0.4rem solid #D3A15F;
+  border-bottom: 1rem solid #d1a15f;
 }
 
-.tomato {
+.ser {
+  width: 25rem;
+  height: 1rem;
+  background-color: #FFD700;
+  border-bottom: 0.4rem solid #d3a15f;
+}
+
+.ketchup {
   width: 20rem;
   height: 2rem;
   background-color: red;
-  border-bottom:  0.4rem solid darkred;
+  border-bottom: 0.4rem solid darkred;
 }
 
-.meat {
+.kotlet {
   width: 23rem;
   height: 3rem;
   background-color: #cc6633;
@@ -44,44 +45,45 @@ h1{
   border-bottom: 1rem solid #993300;
 }
 
-.onion {
+.cebula {
   width: 18rem;
   height: 2rem;
   background-color: #800080;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.onion-ring {
+.cebulki {
   width: 2rem;
   height: 2rem;
-  border-radius: 50%;
   background-color: pink;
+  border-radius: 50%;
 }
 
-.mielone {
+.klopsiki {
   display: flex;
 }
 
-.mielony {
+.klops {
   background-color: #A52A2A;
   height: 6rem;
   width: 6rem;
   border-radius: 50%;
 }
 
-.cucumber {
-  background: #90EE90;
+.ogorek {
+  background-color: #90EE90;
   width: 22rem;
   height: 3rem;
   border-radius: 0rem 0rem 4rem 4rem;
   border-bottom: 1rem solid #008000;
 }
-.lower-bun{
+
+.bulka-dolna {
   width: 24rem;
   height: 3rem;
-  background-color: #deb787;
+  background-color: #D4A373;
   border-radius: 1rem 1rem 4rem 4rem;
-  border-top: 1rem solid #d1a15f
+  border-top: 1rem solid #d1a15f;
 }
