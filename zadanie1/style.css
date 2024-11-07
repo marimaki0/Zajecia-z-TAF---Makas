@@ -1,72 +1,81 @@
-.text{
+h1 {
   background-color: red;
   color: white;
   padding: 8px;
-  font-weight: bold;
-  margin:0 auto;
-  
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
 }
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px; 
-} 
+  justify-content: center;
+}
 
-.bulka-gorna{
+.bulka-gorna {
   width: 24rem;
   height: 6rem;
-  background-color:#ddb786;
+  background-color: #deb787;
   border-radius: 4rem 4rem 1rem 1rem;
   border-bottom: 1rem solid #d1a15f;
 }
 
-
-
 .ser {
+  width: 25rem;
+  height: 1rem;
   background-color: #FFD700;
-  height: 15px;
+  border-bottom: 0.4rem solid #d3a15f;
 }
 
 .ketchup {
+  width: 20rem;
+  height: 2rem;
   background-color: red;
-  height: 15px;
+  border-bottom: 0.4rem solid darkred;
 }
 
-.ogorek {
-  background-color: #7AC142;
-  width: 160px;
-  height: 20px;
-  border-radius: 50%;
+.kotlet {
+  width: 23rem;
+  height: 3rem;
+  background-color: #cc6633;
+  border-radius: 4rem 4rem 4rem 4rem;
+  border-bottom: 1rem solid #993300;
 }
 
 .cebula {
+  width: 18rem;
+  height: 2rem;
+  background-color: #800080;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  width: 180px;
-  height: 20px;
 }
 
-.cebula::before, .cebula::after {
-  content: '';
-  width: 30px;
-  height: 30px;
-  background-color: purple;
+.cebulki {
+  width: 2rem;
+  height: 2rem;
+  background-color: pink;
   border-radius: 50%;
 }
 
-.klops{
+.klopsiki {
   display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 1rem;
 }
 
-.klopsiki {
+.klops {
   background-color: #A52A2A;
   height: 6rem;
   width: 6rem;
   border-radius: 50%;
 }
 
-.ogorek{
+.ogorek {
   background-color: #90EE90;
   width: 22rem;
   height: 3rem;
@@ -80,6 +89,4 @@
   background-color: #D4A373;
   border-radius: 1rem 1rem 4rem 4rem;
   border-top: 1rem solid #d1a15f;
-
 }
-
