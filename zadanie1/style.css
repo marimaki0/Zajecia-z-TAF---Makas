@@ -1,0 +1,85 @@
+.text{
+  background-color: red;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  margin:0 auto;
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; 
+} 
+
+.bulka-gorna{
+  width: 24rem;
+  height: 6rem;
+  background-color:#ddb786;
+  border-radius: 4rem 4rem 1rem 1rem;
+  border-bottom: 1rem solid #d1a15f;
+}
+
+
+
+.ser {
+  background-color: #FFD700;
+  height: 15px;
+}
+
+.ketchup {
+  background-color: red;
+  height: 15px;
+}
+
+.ogorek {
+  background-color: #7AC142;
+  width: 160px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.cebula {
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  height: 20px;
+}
+
+.cebula::before, .cebula::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.klops{
+  display: flex;
+}
+
+.klopsiki {
+  background-color: #A52A2A;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.ogorek{
+  background-color: #90EE90;
+  width: 22rem;
+  height: 3rem;
+  border-radius: 0rem 0rem 4rem 4rem;
+  border-bottom: 1rem solid #008000;
+}
+
+.bulka-dolna {
+  width: 24rem;
+  height: 3rem;
+  background-color: #D4A373;
+  border-radius: 1rem 1rem 4rem 4rem;
+  border-top: 1rem solid #d1a15f;
+
+}
+
