@@ -4,29 +4,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formularz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-  
-    <h1>
-      Employment Form
-    </h1>
+    <form id="emloyment-form">
 
-    <p class="text-firstname">
+    <h2>
+      Emloyment-form
+    </h2>
+
+    <lable for="first-name">
       First name
-    </p>
-    <button class="button-firstname">
-    
-    </button>
-
-    <p class="text-lastname">
+    </lable>
+    <input type="text" id="first-name" name="first-name" placeholder="Jan" required>
+  
+    <lable for="last-name">
       Last name
-    </p>
-    <button class="button-lastname"> 
-    </button>
+    </lable>
+    <input type="text" id="last-name" name="last-name" placeholder="Kowalski" required>
+  
+    <lable for="email">
+      E-mail
+    </lable>
+    <input type="email" id="email" name="email" placeholder="jk@gmail.com" required>
+  
+    <lable for="phone">
+      Phone
+    </lable>
+    <input type="tel" id="phone" name="phone" pattern="\d{3} \d{3} \d{3}" placeholder="505 505 505" required>
     
+    <label for = "dob">
+      Date of birth
+    </label>
+    <input type="date" id="dob" name="dob" required>
 
-  </div>
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender" required>
+      <option value="">Select...</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <p>What are you looking for?</p>
+    <label>
+      <input type="radio" name="position" value="Software Engineer" required>
+      Software Engineer
+    </label>
+    <label>
+      <input type="radio" name="position" value="UX Designer">
+      UX Designer
+    </label>
+    <label>
+      <input type="radio" name="position" value="Analitics Specialist">
+      Analitics Specialist
+    </label>
+    <label>
+      <input type="radio" name="position" value="Project Manager">
+      Project Manager
+    </label>
+    
+    <p>Which programming languages do you know?</p>
+    <label>
+      <input type="checkbox" name="languages" value="Java">
+      Java
+    </label>
+    <label>
+      <input type="checkbox" name="languages" value="JavaScript">
+      JavaScript
+    </label>
+    <label>
+      <input type="checkbox" name="languages" value="C#">
+      C#
+    </label>
+    <label>
+      <input type="checkbox" name="languages" value="Kotlin">
+      Kotlin
+    </label>
+    <label>
+      <input type="checkbox" name="languages" value="Python">
+      Python
+    </label>
+    <label>
+      <input type="checkbox" name="languages" value="Scala">
+      Scala
+    </label>
+
+    <p>Message</p>
+    <textarea id="message" name="message" rows="4" placeholder="Type your message"></textarea>
+
+    <button type="reset" class="button reset">
+      Reset
+    </button>
+    <button type="submit" class="button submit">
+      Submit
+    </button>
+
+  </form>
   
 </body>
 </html>
