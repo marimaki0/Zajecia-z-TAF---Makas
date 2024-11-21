@@ -3,7 +3,7 @@ function isOdd(x){
 }
 
 function isEven(x){
-  x % 2 == 0;
+  return x % 2 == 0;
 }
 
 console.log(isOdd(5)); 
